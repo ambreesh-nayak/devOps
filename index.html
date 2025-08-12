@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Demo Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <!-- Navigation -->
+  <nav class="nav container">
+    <div class="brand">MyBrand</div>
+    <div class="links">
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="container hero">
+    <div>
+      <h1>Modern CSS Demo</h1>
+      <p>This is a quick demo using the starter CSS file. Resize the browser to see the responsive layout in action.</p>
+      <div class="mt-1">
+        <button class="btn">Get Started</button>
+        <button class="btn ghost">Learn More</button>
+      </div>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/420x280" alt="Demo Image" style="width:100%;border-radius:var(--radius)">
+    </div>
+  </section>
+
+  <!-- Cards Grid -->
+  <section class="container">
+    <h2>Features</h2>
+    <div class="grid mt-1">
+      <div class="card">
+        <h3>Feature One</h3>
+        <p>Simple, modern, and responsive layout ready to use.</p>
+      </div>
+      <div class="card">
+        <h3>Feature Two</h3>
+        <p>Reusable utilities like <code>.row</code>, <code>.grid</code>, and more.</p>
+      </div>
+      <div class="card">
+        <h3>Feature Three</h3>
+        <p>Clean typography and subtle shadows for a professional look.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form -->
+  <section class="container">
+    <h2>Contact Us</h2>
+    <form class="stack mt-1" style="max-width:400px">
+      <input class="input" type="text" placeholder="Your Name" />
+      <input class="input" type="email" placeholder="Your Email" />
+      <textarea class="textarea" placeholder="Message"></textarea>
+      <button class="btn secondary">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2025 MyBrand. All rights reserved.
+  </footer>
+
+</body>
+</html>
